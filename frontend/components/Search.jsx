@@ -1,6 +1,6 @@
 var React = require('react');
 // var BenchStore = require('../stores/benchStore');
-var Map = require('./Map');
+var BenchMap = require('./Map');
 var BenchIndex = require('./BenchIndex');
 
 var Search = React.createClass({
@@ -8,7 +8,7 @@ var Search = React.createClass({
     return (
       <div>
         <BenchIndex />
-        <Map />
+        <BenchMap />
       </div>
     );
   }

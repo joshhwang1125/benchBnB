@@ -13,4 +13,12 @@
 class Bench < ActiveRecord::Base
 
   validates :description, :lat, :lng, presence: true
+
+  def self.in_bounds(bounds)
+
+    Bench.where(lat: (bounds["northEast"]["lat"] - bounds["southWest"]["lat"]),
+      lng: (bounds["northEast"]["lng"] - bounds["southWest"]["lng"]))
+      # && this.where(lng: (bounds["northEast"]["lng"] - bounds["southWest"]["lng"]))
+  end
+
 end

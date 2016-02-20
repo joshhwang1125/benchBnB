@@ -13,7 +13,7 @@ var BenchIndex = React.createClass({
 
   componentDidMount: function () {
     this.benchListener = BenchStore.addListener(this._onChange);
-    ApiUtil.fetchBenches();
+    // ApiUtil.fetchBenches();
   },
 
   compomentWillUnmount: function () {

@@ -14,3 +14,4 @@ Bench.create([{description: 'This bench is next to golden gate bridge. First row
 Bench.create([{description: 'This bench is next to japantown. Watashi waaaa', lat: 37.7854135, lng: -122.429383}])
 Bench.create([{description: 'This bench is next to 160 spear st. Does that make sense?', lat: 37.7913765, lng: -122.3936249}])
 Bench.create([{description: 'This bench is in DNA lounge. Unce Unce Unce Unce!', lat: 37.7710559, lng: -122.4126746}])
+Bench.create([{description: 'This bench has "free" dinner. Are they still mad at us?', lat: 37.775744, lng: -122.418132}])
